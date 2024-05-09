@@ -3,7 +3,7 @@ public class forloopQ3{
 		int count=0;
 		for(int i=1;i<=10;i++)
 		{
-			if(i%2==0)
+			if(i%2==0)//to find odd number use (i%2==1)
 			{
 				//you can leave this empty no problem will occur or else you can use (continue;)
 				//even numbers will be skipped

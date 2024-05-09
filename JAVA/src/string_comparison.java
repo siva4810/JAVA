@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class string_comparison {
 	public static void main(String[] args) {
 	
-		String f1 = "siva";
+		String f1 = "siva";//datatype variablename="string input";(must enter string input inside"")
+		//for character input you should use '';
 		String f2 = "siva";
 		System.out.println(f1 == f2);
 		/*
