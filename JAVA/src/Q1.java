@@ -1,3 +1,4 @@
+
 /*
 1.Get input for variable: Name and Age.
 Print it

@@ -17,7 +17,8 @@ public class Q4 {
 		Scanner scan=new Scanner(System.in);
 		String name=scan.nextLine();
 		double score=scan.nextInt();//u can use float also
-		scan.nextLine();//to avoid empty space that will be stored in department
+		scan.nextLine();/*if you dont use this line the empty space that is 
+		created by int will be stored in last string(department)*/
 		String department=scan.nextLine();
 		System.out.println("My name is "+ name);
 		System.out.println("My name is "+ score/10+"/10");
